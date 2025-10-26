@@ -1,0 +1,15 @@
+name: MyApp
+services:
+- enabled: true
+  name: web-server
+  port: 8080
+- enabled: true
+  name: database
+  port: 5432
+- enabled: false
+  name: cache
+  port: 6379
+- enabled: true
+  name: api-gateway
+  port: 3000
+version: 1.2.3

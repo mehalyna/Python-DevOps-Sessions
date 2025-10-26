@@ -1,0 +1,6 @@
+name,url,final_status_code,ok,response_time_ms,attempts,error
+httpbin-get,https://httpbin.org/get,,False,18157.63,3,Timeout after 5s
+httpbin-status-200,https://httpbin.org/status/200,,False,18157.63,3,Timeout after 5s
+httpbin-delay,https://httpbin.org/delay/1,,False,18156.63,3,Timeout after 5s
+google,https://www.google.com,,False,18157.63,3,Timeout after 5s
+invalid-url,https://this-domain-does-not-exist-12345.com,,False,4141.6,3,Connection error: Cannot connect to host this-domain-does-not-exist-12345.com:443 ssl:default [getaddrinfo failed]

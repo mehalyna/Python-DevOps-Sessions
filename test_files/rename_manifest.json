@@ -1,0 +1,52 @@
+[
+  {
+    "original": "test_files\\20251026_application.log",
+    "renamed": "test_files\\20251026_20251026_application.log",
+    "timestamp": "2025-10-26T15:12:29.494104"
+  },
+  {
+    "original": "test_files\\20251026_error.log",
+    "renamed": "test_files\\20251026_20251026_error.log",
+    "timestamp": "2025-10-26T15:12:29.495106"
+  },
+  {
+    "original": "test_files\\application.log",
+    "renamed": "test_files\\20251026_application.log",
+    "timestamp": "2025-10-26T15:12:29.496102"
+  },
+  {
+    "original": "test_files\\error.log",
+    "renamed": "test_files\\20251026_error.log",
+    "timestamp": "2025-10-26T15:12:29.497104"
+  },
+  {
+    "original": "test_files\\temp_data.txt",
+    "renamed": "test_files\\processed_temp_data.txt",
+    "timestamp": "2025-10-26T15:12:29.501106"
+  },
+  {
+    "original": "test_files\\temp_report.txt",
+    "renamed": "test_files\\processed_temp_report.txt",
+    "timestamp": "2025-10-26T15:12:29.505102"
+  },
+  {
+    "original": "test_files\\backup_20251026_151049_config.backup",
+    "renamed": "test_files\\backup_20251026_151229_backup_20251026_151049_config.backup",
+    "timestamp": "2025-10-26T15:12:29.506102"
+  },
+  {
+    "original": "test_files\\backup_20251026_151049_database.backup",
+    "renamed": "test_files\\backup_20251026_151229_backup_20251026_151049_database.backup",
+    "timestamp": "2025-10-26T15:12:29.507104"
+  },
+  {
+    "original": "test_files\\config.backup",
+    "renamed": "test_files\\backup_20251026_151229_config.backup",
+    "timestamp": "2025-10-26T15:12:29.508105"
+  },
+  {
+    "original": "test_files\\database.backup",
+    "renamed": "test_files\\backup_20251026_151229_database.backup",
+    "timestamp": "2025-10-26T15:12:29.509105"
+  }
+]

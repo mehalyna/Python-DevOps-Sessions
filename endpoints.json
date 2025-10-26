@@ -1,0 +1,27 @@
+[
+  {
+    "name": "httpbin-get",
+    "url": "https://httpbin.org/get",
+    "expected_status": 200
+  },
+  {
+    "name": "httpbin-status-200",
+    "url": "https://httpbin.org/status/200",
+    "expected_status": 200
+  },
+  {
+    "name": "httpbin-delay",
+    "url": "https://httpbin.org/delay/1",
+    "expected_status": 200
+  },
+  {
+    "name": "google",
+    "url": "https://www.google.com",
+    "expected_status": 200
+  },
+  {
+    "name": "invalid-url",
+    "url": "https://this-domain-does-not-exist-12345.com",
+    "expected_status": 200
+  }
+]

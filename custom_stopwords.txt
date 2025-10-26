@@ -1,0 +1,25 @@
+# Common English stopwords
+the
+a
+an
+and
+or
+but
+in
+on
+at
+to
+for
+of
+with
+by
+is
+are
+was
+were
+# Technical stopwords for DevOps
+server
+service
+docker
+kubernetes
+config

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-10-26T15:19:54.623504",
+  "summary": {
+    "total_endpoints": 5,
+    "successful": 0,
+    "failed": 5,
+    "avg_response_time_ms": 15354.22
+  },
+  "results": [
+    {
+      "name": "httpbin-get",
+      "url": "https://httpbin.org/get",
+      "final_status_code": null,
+      "ok": false,
+      "response_time_ms": 18157.63,
+      "attempts": 3,
+      "error": "Timeout after 5s"
+    },
+    {
+      "name": "httpbin-status-200",
+      "url": "https://httpbin.org/status/200",
+      "final_status_code": null,
+      "ok": false,
+      "response_time_ms": 18157.63,
+      "attempts": 3,
+      "error": "Timeout after 5s"
+    },
+    {
+      "name": "httpbin-delay",
+      "url": "https://httpbin.org/delay/1",
+      "final_status_code": null,
+      "ok": false,
+      "response_time_ms": 18156.63,
+      "attempts": 3,
+      "error": "Timeout after 5s"
+    },
+    {
+      "name": "google",
+      "url": "https://www.google.com",
+      "final_status_code": null,
+      "ok": false,
+      "response_time_ms": 18157.63,
+      "attempts": 3,
+      "error": "Timeout after 5s"
+    },
+    {
+      "name": "invalid-url",
+      "url": "https://this-domain-does-not-exist-12345.com",
+      "final_status_code": null,
+      "ok": false,
+      "response_time_ms": 4141.6,
+      "attempts": 3,
+      "error": "Connection error: Cannot connect to host this-domain-does-not-exist-12345.com:443 ssl:default [getaddrinfo failed]"
+    }
+  ]
+}
