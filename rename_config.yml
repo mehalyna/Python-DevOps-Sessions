@@ -1,0 +1,10 @@
+rules:
+- pattern: '*.log'
+  template: '{date}_{orig}'
+  description: Add date prefix to log files
+- pattern: temp_*.txt
+  template: processed_{orig}
+  description: Rename temp files to processed
+- pattern: '*.backup'
+  template: backup_{datetime}_{orig}
+  description: Add timestamp to backup files
